@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ESP32 felhasználási területek, projektötletek kezdőknek és haladóknak, beágyazott videóval.">
+    <title>ESP32 Projektek és Felhasználás</title>
+    <link rel="stylesheet" href="weblap1.css">
+</head>
+<body>
+
+    <nav id="main-nav">
+        <ul>
+            <li><a href="főoldal.html">Főoldal</a></li>
+            <li><a href="projektek,felhasználás.html">Projektek és Felhasználás</a></li>
+            <li><a href="segitseg.html">Segítség és Források</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Projektek és Felhasználási Területek</h1>
+        </header>
+
+        <nav id="oldalmenu">
+            <h3>Gyors navigáció az oldalon:</h3>
+            <ul>
+                <li><a href="#felhasznalas">Mire használható az ESP32?</a></li>
+                <li><a href="#projektek">Projektötletek</a></li>
+                <li><a href="#video">Projekt a gyakorlatban (Videó)</a></li>
+            </ul>
+        </nav>
+
+        <section id="felhasznalas">
+            <h2>Mire használható az ESP32?</h2>
+            <p>Az ESP32 sokoldalúsága szinte végtelen lehetőséget rejt magában. Legyen szó otthonautomatizálásról, <u>IoT (Dolgok Internete)</u> eszközökről vagy akár hordozható kütyükről, az ESP32 remek választás a beépített vezeték nélküli képességei miatt.</p>
+            <p>Az egyik legnépszerűbb terület az <b>okosotthon</b>. Készíthetsz vele saját okoskonnektort, lámpavezérlőt, redőnymozgatót, vagy egy központi egységet, ami a lakás különböző szenzoraitól (hőmérséklet, páratartalom, mozgás) gyűjt adatokat és jeleníti meg egy webes felületen.</p>
+            <p>Az <b>IoT projektek</b> terén az ESP32 igazi főnyeremény. Képes érzékelőadatokat gyűjteni és azokat Wi-Fi-n keresztül közvetlenül egy felhő szolgáltatásba (pl. Google Firebase, AWS IoT, Thingspeak) vagy egy saját MQTT szerverre továbbítani. Ezáltal távolról is monitorozhatod a méhkaptáraid állapotát, az üvegházad páratartalmát vagy a postaládád tartalmát.</p>
+            <p>A <b>robotika</b> szerelmesei is előszeretettel használják. A Bluetooth kapcsolatnak köszönhetően könnyedén építhetsz egy okostelefonról vezérelhető robotautót vagy robotkart. A kétmagos processzor pedig elegendő erőt biztosít a motorvezérlés és a szenzoradatok egyidejű feldolgozásához.</p>
+            <p>Végül, de nem utolsósorban, az ESP32 alacsony fogyasztású "deep sleep" módja kiválóan alkalmassá teszi <i>hordozható, akkumulátoros eszközök</i> (wearables) készítésére is. Egy egyszerű időjárás-állomás vagy egy e-papír kijelzős információs panel hónapokig elüzemelhet egyetlen feltöltéssel.</p>
+        </section>
+
+        <section id="projektek">
+            <h2>Projektötletek</h2>
+            <h3>Első lépések - Kezdő projektek</h3>
+            <ol>
+                <li><b>Időjárás-állomás:</b> Egy BME280 szenzorral mérj hőmérsékletet, páratartalmat és légnyomást, majd jelenítsd meg az adatokat egy weboldalon, amit maga az ESP32 hosztol.</li>
+                <li><b>Okos LED szalag vezérlő:</b> Egy címezhető LED szalagot (pl. WS2812B) vezérelj egy webes felületről vagy telefonos applikációról Bluetooth segítségével. Változtass színeket, fényerőt és animációkat.</li>
+                <li><b>Növényöntöző rendszer:</b> Egy talajnedvesség-érzékelő segítségével figyeld a virágföld állapotát, és ha túl száraz, kapcsolj be egy kis vízpumpát.</li>
+            </ol>
+            
+            <h3>Haladó ötletek</h3>
+            <ul>
+                <li>Okos kapucsengő kamerával (ESP32-CAM)</li>
+                <li>Saját készítésű, Spotify-t vezérlő távirányító</li>
+                <li>E-papír kijelzős naptár, ami a Google Calendaroddal szinkronizál</li>
+            </ul>
+        </section>
+        
+        <section id="video">
+            <h2>Projekt a gyakorlatban - Videó</h2>
+            <p>Nézd meg ezt a videót, ami bemutatja egy komplett időjárás-állomás elkészítését ESP32 segítségével!</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/p1s42t01_pA" title="YouTube video player - ESP32 Weather Station Project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <footer>
+            <p>Források: A videó forrása: <a href="https://www.youtube.com/watch?v=p1s42t01_pA" target="_blank">YouTube/Volos Projects</a>.</p>
+        </footer>
+    </div>
+
+</body>
+</html>

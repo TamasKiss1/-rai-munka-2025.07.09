@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Információs oldal az ESP32 mikrovezérlőről, a tulajdonságairól és felhasználási területeiről.">
+    <title>ESP32 Mikrovezérlő - Főoldal</title>
+    <link rel="stylesheet" href="weblap1.css">
+</head>
+<body>
+
+    <nav id="main-nav">
+        <ul>
+            <li><a href="főoldal.html">Főoldal</a></li>
+            <li><a href="projektek,felhasználás.html">Projektek és Felhasználás</a></li>
+            <li><a href="segitseg.html">Segítség és Források</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>ESP32: A Sokoldalú Mikrokontroller</h1>
+        </header>
+
+        <section id="bemutato">
+            <h2>Mi is az az ESP32?</h2>
+            <p>
+                Üdvözlünk az ESP32 világában! Ha egy <strong>nagy teljesítményű</strong>, mégis kedvező árú mikrokontrollert keresel a következő elektronikai projektedhez, akkor a legjobb helyen jársz. Az ESP32 nem csupán egy egyszerű vezérlő; egy komplett platform, amely a vezeték nélküli kommunikáció és a számítási kapacitás tökéletes ötvözetét kínálja.
+            </p>
+            <p>
+                Az ESP32 az Espressif Systems által fejlesztett mikrokontroller-család, amely a népszerű <em>ESP8266</em> utódja. A lelke egy Xtensa LX6 kétmagos processzor, amely bőséges teljesítményt nyújt a legkülönfélébb feladatok elvégzéséhez. Ami igazán kiemeli a tömegből, az a beépített <b>Wi-Fi</b> és <b>Bluetooth</b> (klasszikus és BLE) modul, amely lehetővé teszi a projektek egyszerű csatlakoztatását az internethez és más eszközökhöz.
+            </p>
+        </section>
+
+        <section id="tulajdonsagok">
+            <h2>Főbb tulajdonságok</h2>
+            <ul>
+                <li><b>Kétmagos processzor:</b> Gyors és hatékony működést tesz lehetővé, akár komplex feladatok esetén is.</li>
+                <li><b>Integrált Wi-Fi és Bluetooth:</b> Nincs szükség külső modulokra a vezeték nélküli kommunikációhoz.</li>
+                <li><b>Bőséges memória:</b> Elegendő Flash és SRAM memória a nagyobb programok futtatásához.</li>
+                <li><b>Sokoldalú perifériák:</b> GPIO, ADC, DAC, I²C, SPI, UART és még sok más csatlakozási lehetőség.</li>
+                <li><b>Alacsony fogyasztás:</b> Fejlett energiagazdálkodási funkciók és alvó üzemmódok az akkumulátoros működéshez.</li>
+                <li><b>Kiváló ár-érték arány:</b> Professzionális tudást kínál hobbi áron.</li>
+            </ul>
+        </section>
+
+        <section id="tablazat">
+            <h2>Technikai adatok összehasonlítása</h2>
+            <table>
+                <caption>ESP32 alapvető specifikációk</caption>
+                <thead>
+                    <tr>
+                        <th>Tulajdonság</th>
+                        <th>Érték</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CPU</td>
+                        <td>Xtensa Kétmagos 32-bit LX6</td>
+                    </tr>
+                    <tr>
+                        <td>Max. órajel</td>
+                        <td>240 MHz</td>
+                    </tr>
+                    <tr>
+                        <td>Wi-Fi</td>
+                        <td>802.11 b/g/n</td>
+                    </tr>
+                    <tr>
+                        <td>Bluetooth</td>
+                        <td>v4.2 BR/EDR és BLE</td>
+                    </tr>
+                    <tr>
+                        <td>GPIO pins</td>
+                        <td>34</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="hang">
+            <h2>ESP32 Indulási hang</h2>
+            <p>Hallgasd meg, hogyan hangozhatna egy ESP32-vel vezérelt eszköz indulása:</p>
+            <audio controls>
+                <source src="boot-sound.mp3" type="audio/mpeg">
+                A böngésződ nem támogatja az audio elemet.
+            </audio>
+        </section>
+
+        <section id="kepek">
+            <h2>Képek a chipekről</h2>
+            <p>Az ESP32 fejlesztői panel lábkiosztása és kommunikációs portjai:</p>
+            <img src="esp32-pinout.jpg.webp" alt="ESP32 fejlesztői panel lábkiosztása">
+            <p>Maga az ESP-WROOM-32 chip önmagában, board nélkül:</p>
+            <img src="ESP32_Chip.jpg" alt="ESP-WROOM-32 chip">
+            <p>Egy kompakt verzió, az ESP32-C3 Mini, kevesebb lábbal, de modern RISC-V maggal:</p>
+            <img src="ESP32C3-mini-pinout.jpg" alt="ESP32-C3 Mini panel">
+        </section>
+        
+        <footer>
+            <p>Források: A képeket a felhasználó biztosította. Hangfájl forrása: <a href="https://pixabay.com/sound-effects/computer-boot-up-sound-106898/" target="_blank">Pixabay</a>.</p>
+        </footer>
+    </div>
+</body>
+</html>
